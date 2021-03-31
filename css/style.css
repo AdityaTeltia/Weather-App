@@ -1,0 +1,16 @@
+#description{
+  text-transform: capitalize;
+}
+
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vw;
+}
+
+
+.container{
+  background-color: skyblue;
+  border-radius: 5px;
+}

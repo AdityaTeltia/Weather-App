@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AppWeather</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <main class="row">
+        <aside class="col-md-4">
+          <h1 id="city"></h1>
+          <p><strong>at present</strong></p>
+          <p id="weather"></p>
+          <table class="table table-condensed">
+            <tr><th>Wind</th><td id="wind"></td></tr>
+            <tr><th>Cloudiness</th><td id="cloudiness"></td></tr>
+            <tr><th>Pressure</th><td id="pressure"></td></tr>
+            <tr><th>Humidity</th><td id="humidity"></td></tr>
+            <tr><th>Sunrise</th><td id="sunrise"></td></tr>
+            <tr><th>Sunset</th><td id="sunset"></td></tr>
+            <tr><th>Coordinates</th><td id="coords"></td></tr>
+          </table>
+        </aside>
+      </main>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/locale/fr.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
