@@ -1,2 +1,2 @@
-# webWeather
-simple web weather app in javacript
+# Weather App
+Simple web weather app using javacript
